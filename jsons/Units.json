@@ -1,1 +1,65 @@
+[
+	{
+		"name": "Hwach'a 2",
+		"unitType": "Siege",
+		"replaces": "Trebuchet",
+		"uniqueTo": "Korea 2",
+		"movement": 2,
+		"strength": 11,
+		"rangedStrength": 26,
+		"cost": 120,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Chemistry",
+		"upgradesTo": "Cannon",
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"attackSound": "throw"
+	},
 
+	{
+		"name": "Hwach'a 3",
+		"unitType": "Siege",
+		"replaces": "Trebuchet",
+		"uniqueTo": "Korea 3",
+		"movement": 2,
+		"strength": 11,
+		"rangedStrength": 26,
+		"cost": 120,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Chemistry",
+		"upgradesTo": "Cannon",
+		"uniques": ["No defensive terrain bonus","Must set up to ranged attack"],
+		"attackSound": "throw"
+	},
+
+	{
+		"name": "Turtle Ship 2",
+		"unitType": "Melee Water",
+		"replaces": "Caravel",
+		"uniqueTo": "Korea 2",
+		"movement": 4,
+		"strength": 36,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Cannot enter ocean tiles"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+
+	{
+		"name": "Turtle Ship 3",
+		"unitType": "Melee Water",
+		"replaces": "Caravel",
+		"uniqueTo": "Korea 3",
+		"movement": 4,
+		"strength": 36,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Cannot enter ocean tiles"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	}
+]
