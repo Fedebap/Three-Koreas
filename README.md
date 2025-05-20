@@ -1,1 +1,1 @@
-
+This mod adds two more Koreas on top of the vanila one, as well as two extra Sri Padas and Mount Fujis. Basically, me and some friends wanted to play a totally mirror match, so we needed two more Koreas and wonders to make identical continents. The extra wonders do not spawn naturally, so you can use this for normal matches as well.
