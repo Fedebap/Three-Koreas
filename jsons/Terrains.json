@@ -1,7 +1,27 @@
 [
 {
-		"name": "Sri Pada 2",
-		"type": "NaturalWonder",
+		
+	
+
+		"name": "Siri Pagoda xD",
+		"type": "TerrainFeature",
+		"food": 2,
+		"faith": 4,
+		"happiness": 2,
+		"occursOn": ["Plains","Grassland"],
+		"uniques": ["Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Desert] tiles",
+			"Must be adjacent to [0] [Marsh] tiles",
+			"Must not be on [1] largest landmasses"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 0
+	},
+	
+	{
+	        "name": "Sri Pada 2",
+		"type": "TerrainFeature",
 		"food": 2,
 		"faith": 4,
 		"happiness": 2,
@@ -17,7 +37,7 @@
 	},
 {
 		"name": "Sri Pada 3",
-		"type": "NaturalWonder",
+		"type": "TerrainFeature",
 		"food": 2,
 		"faith": 4,
 		"happiness": 2,
@@ -32,8 +52,29 @@
 		"weight": 0
 	},
 {
+
+	
+		"name": "Monte fulli",
+		"type": "TerrainFeature",
+		"gold": 2,
+		"culture": 3,
+		"faith": 3,
+		"occursOn": ["Grassland","Plains"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [0] [Desert] tiles",
+			"Must be adjacent to [0] [Mountain] tiles",
+			"Must be adjacent to [0] [Marsh] tiles",
+			"Must be adjacent to [0] to [2] [Hill] tiles",
+			"Must not be on [1] largest landmasses"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 0
+	},
+	{
 		"name": "Mount Fuji 2",
-		"type": "NaturalWonder",
+		"type": "TerrainFeature",
 		"gold": 2,
 		"culture": 3,
 		"faith": 3,
@@ -52,7 +93,7 @@
 	},
 {
 		"name": "Mount Fuji 3",
-		"type": "NaturalWonder",
+		"type": "TerrainFeature",
 		"gold": 2,
 		"culture": 3,
 		"faith": 3,
